@@ -1,5 +1,4 @@
 import pandas as pd
-import streamlit as st
 
 def pipeline_tratamento(caminho):
     df = ler_data(caminho)
@@ -10,8 +9,14 @@ def pipeline_tratamento(caminho):
     df = tratar_area(df)
     df = tratar_cidade(df)
     df = to_numeric(df)
+    df = criar_preco_m2(df)
     return df
 
+def criar_preco_m2(df):
+    df["preco_m2"] = None
+    mask = df["tipo_anuncio"] == "venda"
+    df.loc[mask, "preco_m2"] = df.loc[mask, "price_limpo"] / df.loc[mask, "area_m2"]
+    return df
 
 # Leitura do dataset
 def ler_data(caminho):
