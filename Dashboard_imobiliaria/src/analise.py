@@ -10,6 +10,7 @@ def estatisticas_venda(df):
         "desvio_padrao": np.std(vendas),
         "minimo": np.min(vendas),
         "maximo": np.max(vendas),
+
     }
 
 
