@@ -1,5 +1,13 @@
 # Real Estate Data Analysis Dashboard – São Paulo
 
+## Live Demo
+
+Access the deployed dashboard:
+
+https://data-analysis-dashboard-sao-paulo.streamlit.app/
+
+---
+
 This project consists of an exploratory data analysis and visualization pipeline applied to real estate listings in São Paulo. It was developed with a focus on clean data processing, statistical rigor, modular architecture, and reproducible analytical workflows using Python.
 
 Although built as a study project, the structure and design follow professional standards commonly adopted in data analysis and business intelligence environments.
