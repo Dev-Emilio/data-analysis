@@ -166,7 +166,7 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("<br>", unsafe_allow_html=True)
 
 st.sidebar.image(
-    "assets/logo.JPG",
+    "assets/logo.jpg",
     use_container_width=True
 )
 
