@@ -165,8 +165,4 @@ with col_right:
 st.sidebar.markdown("---")
 st.sidebar.markdown("<br>", unsafe_allow_html=True)
 
-st.sidebar.image(
-    "Dashboard_imobiliaria/assets/logo.jpg", use_container_width=True
-)
-
 st.sidebar.markdown("<br>", unsafe_allow_html=True)
