@@ -26,7 +26,7 @@ st.set_page_config(
 # LOAD DATA
 # ========================
 
-caminho = "data/analise_imoveis_sao_paulo.csv"
+caminho = "Dashboard_imobiliaria/data/analise_imoveis_sao_paulo.csv"
 df = pipeline_tratamento(caminho)
 
 # ========================
